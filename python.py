@@ -559,3 +559,24 @@
     # print(f"bizda bu taomlar yoq")
 
 
+# while  True:
+#     son = int(input("Son krting biz kvadratini chiqazamz: "))
+#     print(f"{son} ning kvadrati {son**2} ga teng")
+#     savol = input("Dastur davom etsunmi {yes/no}: ")
+#     if savol == "yes":
+#         continue
+#     elif savol == "no":
+#         print("Dastur toxtatildi")
+#         break
+#     else:print("Eror !")
+
+"""mashq"""
+while True:
+    yil = int(input("Tug'ilgan yilingizni krting: "))
+    print(f"Sz {2024-yil} yoshsz")
+    savol = input("Davom etiraymi {exit/}: ")
+    if savol == "exit":
+        break
+    else:
+        continue
+    
